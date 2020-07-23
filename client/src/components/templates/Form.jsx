@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
-  TextField, Button, ButtonGroup, Grid, Typography,
+  TextField, Button, ButtonGroup, Grid,
 } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -20,9 +20,6 @@ function Form({ inputs, buttons }) {
   return (
     <form noValidate autoComplete="off">
       <Grid container direction="column">
-        <Grid items>
-          <Typography>Test</Typography>
-        </Grid>
         <Grid items className={classes.item}>
           <Grid container>
             {
